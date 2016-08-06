@@ -1,0 +1,24 @@
+{
+  "name": "reactjsdenver.com",
+  "version": "1.0.0",
+  "description": "Website for reactjsdenver meetup",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactjsdenver/reactjsdenver.com.git"
+  },
+  "author": "Will Klein, Regina Peyfuss, David Parker, Nate Venn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reactjsdenver/reactjsdenver.com/issues"
+  },
+  "homepage": "https://github.com/reactjsdenver/reactjsdenver.com#readme",
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  }
+}
