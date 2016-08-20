@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
   entry: './app/App.js',
   output: {
     filename: 'public/bundle.js'
@@ -16,7 +16,14 @@ module.export = {
         query: {
           presets: ['es2015', 'react']
         }
-      }
-    ]
-  }
-}
+      },
+      {
+        test: /\.css$/,
+        loader:'style!css'
+      },
+    ],
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx','.css']
+  },
+};
