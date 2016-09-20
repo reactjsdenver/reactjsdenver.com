@@ -4,7 +4,7 @@ export default class Main extends Component{
 
   render(){
     return(
-      <div className = "ui raised segment"> Hello world</div>
+      <div className="ui raised segment"> Hello world</div>
     );
   }
 }
