@@ -1,3 +1,17 @@
-div{
-  background-color: red,
+#app {
+  background-color:
+}
+.react-denver-logo {
+  background-color: #52dcf7;
+  width: 200px;
+  padding: 0px 30px 30px 30px;
+  margin: 15px;
+  text-align: center
+}
+
+.react-denver-logo h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+  padding-top: 10px;
 }
