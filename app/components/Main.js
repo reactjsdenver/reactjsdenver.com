@@ -1,1 +1,10 @@
-import React from 'react'
+import React, {Component} from 'react'
+
+export default class Main extends Component{
+
+  render(){
+    return(
+      <div className="ui raised segment"> Hello world</div>
+    );
+  }
+}
