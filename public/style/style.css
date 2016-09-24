@@ -18,6 +18,7 @@
   font-size: 2em;
   margin-bottom: 20px;
   padding-top: 10px;
+}
 
 .talk-background {
   background-color:  var(--react-blue);
@@ -26,6 +27,7 @@
 .text-color-white{
   color: var(--react-white);
 }
+
  #app{
    background-color: var(--react-gray);
  }
