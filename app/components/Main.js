@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import Header from './Header'
+import React, {Component} from 'react';
+import Header from './Header';
 import Talk from './Talk';
 
 export default class Main extends Component{
