@@ -1,6 +1,10 @@
-#app {
-  background-color:
+:root{
+  --react-blue: #52DCF7;
+  --react-gray: #282C2E;
+  --react-white: #FFFFFF;
+  --react-black: #000000;
 }
+
 .react-denver-logo {
   background-color: #52dcf7;
   width: 200px;
@@ -14,4 +18,14 @@
   font-size: 2em;
   margin-bottom: 20px;
   padding-top: 10px;
+
+.talk-background {
+  background-color:  var(--react-blue);
+  color: var(--react-black);
 }
+.text-color-white{
+  color: var(--react-white);
+}
+ #app{
+   background-color: var(--react-gray);
+ }
