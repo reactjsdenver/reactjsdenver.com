@@ -6,7 +6,7 @@ export default class Main extends Component{
 
   render(){
     return(
-      <div>
+      <div className="main-app">
       <Header />
       <Talk />
       </div>
