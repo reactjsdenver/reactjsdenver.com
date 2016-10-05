@@ -5,10 +5,16 @@
   --react-black: #000000;
 }
 
+/*
+ app
+ */
  #app{
    background: var(--react-gray);
  }
-
+ .main-app{
+   padding-top: 0px;
+   padding-bottom: 50px;
+ }
 /*
  header-denver-react-logo
  */
@@ -55,4 +61,10 @@
 .text-color-white{
   color: var(--react-white);
 }
-
+.talk-card {
+  margin: auto;
+  width: 90%;
+}
+.talk-center{
+  text-align: center;
+}
