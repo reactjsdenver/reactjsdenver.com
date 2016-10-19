@@ -2,21 +2,26 @@ import React, {Component} from 'react';
 import {Map, Marker, GoogleApiWrapper} from 'google-maps-react'
 
 export class GMap extends Component {
-
-  componentWillMount() {
-  }
-
   render() {
+    var style = {
+      width: '400px',
+      height: '400px',
+    }
+    var lat = this.props.location.lat
+    var lng = this.props.location.lng
+
     return (
       <div className='map-container'>
-        <Map google={this.props.google} style={{width: '400px', height: '400px', position: 'relative'}}
+        <Map google={this.props.google}
+          style={style}
           className={'map'}
           zoom={14}
-          center={{lat: 39.747112, lng: -104.990486}}
+          center={ { lat: lat, lng: lng } }
         >
           <Marker
             name={'Denver'}
-            position={{lat: 39.747112, lng:-104.990486}} />
+            position={ { lat: lat, lng: lng } }
+          />
         </Map>
       </div>
     )
