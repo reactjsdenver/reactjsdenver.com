@@ -4,14 +4,13 @@ import {Map, Marker, GoogleApiWrapper} from 'google-maps-react'
 export class GMap extends Component {
   render() {
     var style = {
-      width: '400px',
-      height: '400px',
+      width: '800px',
+      height: '300px',
     }
     var lat = this.props.location.lat
     var lng = this.props.location.lng
 
     return (
-      <div className='map-container'>
         <Map google={this.props.google}
           style={style}
           className={'map'}
@@ -23,7 +22,6 @@ export class GMap extends Component {
             position={ { lat: lat, lng: lng } }
           />
         </Map>
-      </div>
     )
   }
 }
