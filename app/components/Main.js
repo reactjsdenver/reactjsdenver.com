@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Header from './Header';
 import Talk from './Talk';
+import Meetup from './Meetup';
 
 export default class Main extends Component{
 
@@ -8,6 +9,7 @@ export default class Main extends Component{
     return(
       <div className="main-app">
       <Header />
+      <Meetup />
       <Talk />
       </div>
     );
