@@ -3,7 +3,7 @@ import Header from './Header';
 import Talk from './Talk';
 import GMap from './GMap';
 
-export default class Main extends Component{
+export default class Main extends Component {
   constructor() {
     super()
 
@@ -42,7 +42,7 @@ export default class Main extends Component{
     this.setState({ location: { lat: lat, lng: lng } })
   }
 
-  render(){
+  render() {
     return(
       <div className="main-app">
         <Header />
@@ -51,4 +51,4 @@ export default class Main extends Component{
       </div>
     );
   }
-}
+};

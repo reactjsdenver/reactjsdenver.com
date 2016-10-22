@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 
-export default class Header extends Component{
+export default class Header extends Component {
 
-  render(){
-    return(
+  render() {
+    return (
       <nav className="ui header">
         <div className="react-denver-logo">
           <h2 className="logo-text-denver">Denver</h2>
@@ -13,4 +13,4 @@ export default class Header extends Component{
       </nav>
     );
   }
-}
+};

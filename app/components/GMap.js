@@ -24,6 +24,14 @@ export class GMap extends Component {
         </Map>
     )
   }
+};
+
+GMap.propTypes = {
+  location: React.PropTypes.object.isRequired
+}
+
+GMap.defaultProps = {
+  location: { lat: 39.747112, lng: -104.990486}
 }
 
 export default GoogleApiWrapper({

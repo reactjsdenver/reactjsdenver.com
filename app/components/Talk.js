@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 
-export default class Talk extends Component{
+export default class Talk extends Component {
 
-  render(){
-    return(
+  render() {
+    return (
       <div className="talk-card">
         <div className="ui grid center aligned">
 
@@ -38,4 +38,4 @@ export default class Talk extends Component{
       </div>
     );
   }
-}
+};
