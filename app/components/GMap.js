@@ -11,6 +11,8 @@ export class GMap extends Component {
     var lng = this.props.location.lng
 
     return (
+      <div>
+        <h2 className='map-header'>Where</h2>
         <Map google={this.props.google}
           style={style}
           className={'map'}
@@ -22,6 +24,7 @@ export class GMap extends Component {
             position={ { lat: lat, lng: lng } }
           />
         </Map>
+      </div>
     )
   }
 };

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Header from './Header';
 import Talk from './Talk';
 import GMap from './GMap';
+import Meetup from './Meetup';
 
 export default class Main extends Component {
   constructor() {
@@ -46,6 +47,7 @@ export default class Main extends Component {
     return(
       <div className="main-app">
         <Header />
+        <Meetup date={this.state.date}/>
         <Talk />
         <GMap location={this.state.location}/>
       </div>

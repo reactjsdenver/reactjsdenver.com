@@ -18,7 +18,7 @@ export default class Talk extends Component {
               </button>
             <h5>Do you need a talk idea?
               <br />We got you covered,
-                <a href="www.google.com">Click Me!</a>
+                <a href="www.google.com"> Click Me!</a>
             </h5>
           </div>
           <div className="center aligned eight wide column">
@@ -29,7 +29,7 @@ export default class Talk extends Component {
               </button>
             <h5>Do you need a talk idea?
               <br />We got you covered,
-                <a href="www.google.com">Click Me!</a>
+                <a href="www.google.com"> Click Me!</a>
             </h5>
 
           </div>
