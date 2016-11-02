@@ -12,7 +12,11 @@ export class GMap extends Component {
 
     return (
       <div>
-        <h2 className='map-header'>Where</h2>
+        <h2 className='map-header'>
+          <span className="map-header-text">
+            Where
+          </span>
+        </h2>
         <Map google={this.props.google}
           style={style}
           className={'map'}
