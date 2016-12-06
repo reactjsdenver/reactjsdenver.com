@@ -175,6 +175,7 @@
 .map-header {
   color: var(--react-white);
   font-weight: 500;
+  margin-bottom: 30px;
   text-align: center;
 }
 
