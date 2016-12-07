@@ -3,10 +3,6 @@ import {Map, Marker, GoogleApiWrapper} from 'google-maps-react'
 
 export class GMap extends Component {
   render() {
-    var style = {
-      width: '800px',
-      height: '300px',
-    }
     var lat = this.props.location.lat
     var lng = this.props.location.lng
 
@@ -18,7 +14,6 @@ export class GMap extends Component {
           </span>
         </h2>
         <Map google={this.props.google}
-          style={style}
           className={'map'}
           zoom={14}
           center={ { lat: lat, lng: lng } }
