@@ -8,17 +8,23 @@
 /*
  app
  */
+
  #app{
-   background: var(--react-gray);
- }
+  background: url('images/background-img2.jpg') center fixed;
+  -webkit-background-size: cover
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
  .main-app{
    padding-top: 0px;
    padding-bottom: 50px;
  }
+
 /*
  header-denver-react-logo
  */
-
 .react-denver-logo {
   position: relative;
   background: var(--react-blue);
@@ -33,7 +39,6 @@
 }
 
 .logo-text-denver {
-  background: var(--react-white);
   font-family: 'Roboto', sans-serif;
   font-size: 3em;
   padding-top: 5px;
@@ -55,7 +60,8 @@
  */
 
   .meetup-main {
-    margin-bottom: 100px;
+    margin-top: 170px;
+    margin-bottom: 150px;
     text-align: center;
   }
 
@@ -73,7 +79,7 @@
     color: var(--react-white);
     font-weight: 500;
     margin: auto;
-    padding-bottom: 8px;
+    /*padding-bottom: 8px;*/
     position: relative;
     overflow: hidden;
     opacity: 0;
@@ -87,13 +93,15 @@
     animation-delay: 2.3s;
     -moz-animation-delay: 2.3s;
     -webkit-animation-delay: 2.3s;
-    margin-top: -20px
+    margin-top: -30px
   }
 
   .three.typing {
     animation-delay: 4.3s;
     -moz-animation-delay: 4.3s;
     -webkit-animation-delay: 4.3s;
+    margin-top: 50px;
+    margin-bottom: 30px;
   }
 
   .meetup-date {
@@ -132,14 +140,46 @@
   background-color:  var(--react-blue);
   color: var(--react-black);
 }
-.text-color-white{
+
+.text-color-white {
   color: var(--react-white);
   font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
 }
+
+.the-talks {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #52DCF7;
+}
+
 .talk-card {
   margin: auto;
   width: 90%;
 }
 .talk-center{
   text-align: center;
+}
+
+/*
+ Map cantainer component
+ */
+
+.map {
+  margin: auto;
+  position: relative !important;
+  height: 300px !important;
+  width: 800px !important;
+}
+
+.map-header {
+  color: var(--react-white);
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.map-header-text {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #52DCF7;
 }

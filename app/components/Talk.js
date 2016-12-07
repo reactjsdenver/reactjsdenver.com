@@ -1,15 +1,17 @@
-
-
 import React, {Component} from 'react'
 
-export default class Talk extends Component{
+export default class Talk extends Component {
 
-  render(){
-    return(
+  render() {
+    return (
       <div className="talk-card">
         <div className="ui grid center aligned">
 
-        <h2 className="text-color-white"> The Talks</h2>
+          <h2 className="text-color-white">
+            <span className="the-talks">
+              The Talks
+              </span>
+            </h2>
 
         <div className="row talk-background divided" >
           <div className="center aligned eight wide column ">
@@ -40,4 +42,4 @@ export default class Talk extends Component{
       </div>
     );
   }
-}
+};
